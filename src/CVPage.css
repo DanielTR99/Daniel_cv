@@ -1,0 +1,385 @@
+/* CVPage.css */
+
+.main-bg {
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    gap: 1rem;
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .nav-button {
+    color: #fff;
+    background: #444;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .nav-button.active {
+    background: #ff3366;
+  }
+  
+  .section {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  .section-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .list li {
+    margin-bottom: 10px;
+  }
+  
+  .download-btn {
+    background: #ff3366;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .download-btn:hover {
+    background: #e02a5a;
+  }
+  
+  .title {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    font-size: 20px;
+    color: #666;
+  }
+  .linkedin-link a {
+    display: flex;
+    align-items: center;
+    color: #0077b5;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  
+  .linkedin-icon {
+    margin-right: 0.5rem;
+  }
+  
+  .linkedin-link a:hover {
+    text-decoration: underline;
+  }
+  .contact-info span {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0.5rem 0;
+  }
+  
+  .contact-info span svg {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .nav-button {
+    padding: 0.6rem 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .nav-button:hover {
+    transform: scale(1.1);
+  }
+/* Fondo de código animado */
+@keyframes codeAnimation {
+    0% {
+      background-position: 0 -200px;
+    }
+    100% {
+      background-position: 0 200px;
+    }
+  }
+  
+  .code-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1e1e1e; /* Fondo oscuro */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.1); /* Código tenue */
+    z-index: -1; /* Asegurarse de que esté detrás del contenido */
+    pointer-events: none; /* No afecta a la interacción */
+    overflow: hidden;
+    animation: codeAnimation 15s linear infinite;
+    white-space: nowrap;
+    background: linear-gradient(transparent, transparent),
+      url('data:text/plain;charset=utf-8;base64,ICAgICAgICAgc3RhcnQgc3RhcnQgc3RhcnQgc3RhcnQgc3RhcnQgc3RhcnQgc3RhcnQgc3RhcnQ=');
+    background-size: 100% 200px;
+  }
+  
+  /* Estilos para la computadora */
+  .computer-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+  }
+  
+  .computer-container {
+    width: 250px;
+    height: 150px;
+    border: 10px solid #333;
+    border-radius: 10px;
+    background: #000;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  .screen {
+    background: #1e1e1e;
+    color: #00ffe0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    height: 100%;
+    padding: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  .code-writing {
+    font-size: 14px;
+    color: #00ffe0;
+    animation: typing 5s steps(30) 1s forwards, blinkCaret 0.75s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blinkCaret {
+    50% {
+      border-color: transparent;
+    }
+  }
+  
+  .code-line {
+    display: block;
+    font-size: 18px;
+    margin: 10px 0;
+  }
+/* Fondo de código animado */
+@keyframes codeAnimation {
+    0% {
+      background-position: 0 -200px;
+    }
+    100% {
+      background-position: 0 200px;
+    }
+  }
+  
+  .code-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1e1e1e; /* Fondo oscuro */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.1); /* Código tenue */
+    z-index: -1; /* Asegurarse de que esté detrás del contenido */
+    pointer-events: none; /* No afecta a la interacción */
+    overflow: hidden;
+    animation: codeAnimation 15s linear infinite;
+    white-space: nowrap;
+    background: linear-gradient(transparent, transparent),
+      url('data:text/plain;charset=utf-8;base64,ICAgICAgICAgc3RhcnQgc3RhcnQgc3RhcnQgc3RhcnQgc3RhcnQgc3RhcnQgc3RhcnQgc3RhcnQ=');
+    background-size: 100% 200px;
+  }
+  
+  /* Estilos para el contenedor del logo */
+  .logo-container {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .code-writing {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: #00ffe0;
+    display: inline-block;
+    padding: 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0; /* Inicialmente sin mostrar el texto */
+    animation: typing 4s steps(30) 1s forwards, blinkCaret 0.75s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blinkCaret {
+    50% {
+      border-color: transparent;
+    }
+  }
+  
+  .code-line {
+    display: block;
+    font-size: 20px;
+    margin: 10px 0;
+  }
+/* Contenedor de la barra de navegación */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  /* Contenedor para los íconos */
+  .icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Ajusta la altura según necesites */
+    background-color: #333; /* Fondo oscuro */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 10px;
+    transition: all 0.5s ease-in-out; /* Suaviza las transiciones */
+  }
+  
+  .icon {
+    font-size: 40px;
+    animation: fadeIn 1s ease-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* Estilos para el navbar */
+.navbar {
+    display: flex;
+    justify-content: flex-start; /* Alinear los elementos al principio (a la izquierda) */
+    align-items: center;
+    padding: 1rem;
+    background-color: #333; /* Color de fondo del navbar */
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Estilo para los botones de navegación */
+  .navbar button {
+    background: transparent;
+    border: 1px solid #ffffff; /* Color de borde blanco */
+    color: #ffffff; /* Texto de los botones en blanco */
+    padding: 0.6rem 1rem;
+    margin-right: 1rem; /* Ajustar el espacio entre los botones */
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar button:hover {
+    background-color: #ffffff; /* Fondo blanco al pasar el cursor */
+    color: #333; /* Color de texto oscuro al pasar el cursor */
+  }
+  
+  /* Contenedor de íconos (si es necesario) */
+  .icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    margin-left: auto; /* Empuja los íconos hacia la derecha */
+  }
+  
+  .icon {
+    font-size: 8rem; /* Ajusta el tamaño de los íconos */
+    color: #ffffff; /* Color blanco para los íconos */
+    transition: transform 0.3s ease; /* Animación suave al pasar el mouse */
+  }
+  
+  .icon:hover {
+    transform: scale(1.2); /* Efecto de agrandar el ícono cuando se pasa el ratón */
+  }
+  /* Logo animado */
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .logo {
+    width: 90px; /* Tamaño del logo */
+    height: auto;
+    animation: rotateLogo 4s infinite linear;
+  }
+  
+  @keyframes rotateLogo {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(180deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+/* Efecto 3D en el logo */
+@keyframes float {
+    0% {
+      transform: translateY(0) rotate(0deg);
+    }
+    50% {
+      transform: translateY(-15px) rotate(15deg);
+    }
+    100% {
+      transform: translateY(0) rotate(0deg);
+    }
+  }
+  
+  .logo {
+    animation: float 2s infinite ease-in-out;
+  }
+    
