@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Daniel_cv/static/css/main.b2f3cb97.css",
+    "main.js": "/Daniel_cv/static/js/main.ec55e8af.js",
+    "static/js/453.5333ad58.chunk.js": "/Daniel_cv/static/js/453.5333ad58.chunk.js",
+    "static/media/logo1.png": "/Daniel_cv/static/media/logo1.0e685d9a54454d6b50a6.png",
+    "index.html": "/Daniel_cv/index.html",
+    "main.b2f3cb97.css.map": "/Daniel_cv/static/css/main.b2f3cb97.css.map",
+    "main.ec55e8af.js.map": "/Daniel_cv/static/js/main.ec55e8af.js.map",
+    "453.5333ad58.chunk.js.map": "/Daniel_cv/static/js/453.5333ad58.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2f3cb97.css",
+    "static/js/main.ec55e8af.js"
+  ]
+}
